@@ -24,7 +24,7 @@ function App() {
     setLocation(data.location?.name);
     setTemp(data.current?.feelslike_c);
 
-    console.log(data);
+    // console.log(data);
   };
 
   useEffect(async () => {
@@ -36,7 +36,7 @@ function App() {
     setLocation(data.location?.name);
     setTemp(data.current?.feelslike_c);
 
-    console.log(data);
+    // console.log(data);
   }, []);
 
   return (
